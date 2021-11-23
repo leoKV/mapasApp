@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent implements OnInit {
 
- // title = 'mapasApp';
+title = 'mapasApp';
  ngOnInit():void{
    console.log('AppComponent');
    (mapboxgl as any).accessToken = environment.mapboxToken;
